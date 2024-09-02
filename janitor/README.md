@@ -18,4 +18,17 @@ To install dependencies and setup the environment, run:
 poetry install
 ```
 
+To build a distributable (python .whl), run:
 
+```sh
+poetry build
+```
+
+(TODO) To execute the application, run:
+```sh
+poetry run <main>
+```
+
+### Future improvements
+
+Consider [`tree-sitter`](https://github.com/tree-sitter/py-tree-sitter) as an alternative to `antlr4`?
